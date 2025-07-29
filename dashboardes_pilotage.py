@@ -18,11 +18,11 @@ from google.oauth2.service_account import Credentials
 
 #url = "base_dashboard.xlsx"
 url = "https://docs.google.com/spreadsheets/d/1VsaxyK3Di_Kgw9CDlkeQXOG0J9n0cGaH/edit?usp=sharing&ouid=100640176468695161244&rtpof=true&sd=true"
-commerciaux_cpt = pd.read_excel(url, sheet_name="commerciaux_cpt")
-commerciaux_sgt = pd.read_excel(url, sheet_name="commerciaux_sgt")
-Support = pd.read_excel(url, sheet_name="Support")
-type_vente = pd.read_excel(url, sheet_name="type_vente")
-produit_item = pd.read_excel(url, sheet_name="produit_item")
+commerciaux_cpt = pd.read_csv(url, sheet_name="commerciaux_cpt")
+commerciaux_sgt = pd.read_csv(url, sheet_name="commerciaux_sgt")
+Support = pd.read_csv(url, sheet_name="Support")
+type_vente = pd.read_csv(url, sheet_name="type_vente")
+produit_item = pd.read_csv(url, sheet_name="produit_item")
 
 
 
