@@ -1,0 +1,8 @@
+
+gspread
+gspread_dataframe
+openpyxl
+pytz
+streamlit
+pandas
+oauth2client
