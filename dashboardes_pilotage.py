@@ -24,11 +24,11 @@ url_sup = "https://docs.google.com/spreadsheets/d/1VsaxyK3Di_Kgw9CDlkeQXOG0J9n0c
 url_item = "https://docs.google.com/spreadsheets/d/1VsaxyK3Di_Kgw9CDlkeQXOG0J9n0cGaH/edit?gid=441651105#gid=441651105"
 url_vente = "https://docs.google.com/spreadsheets/d/1VsaxyK3Di_Kgw9CDlkeQXOG0J9n0cGaH/edit?gid=63479984#gid=63479984"
 
-commerciaux_cpt = pd.read_csv(url_cpt, sheet_name="commerciaux_cpt")
-commerciaux_sgt = pd.read_csv(url_sgt, sheet_name="commerciaux_sgt")
-Support = pd.read_csv(url_sgt, sheet_name="Support")
-type_vente = pd.read_csv(url_vente, sheet_name="type_vente")
-produit_item = pd.read_csv(url_item, sheet_name="produit_item")
+commerciaux_cpt = pd.read_csv(url_cpt)
+commerciaux_sgt = pd.read_csv(url_sgt)
+Support = pd.read_csv(url_sgt)
+type_vente = pd.read_csv(url_vente)
+produit_item = pd.read_csv(url_item)
 
 
 
